@@ -1,6 +1,7 @@
 .popup-section {
   position: relative;
   padding: 0;
+  display: none;
 }
 .popup-holder {
   position: fixed;
@@ -77,4 +78,15 @@
     background: lightgrey;
     transition: 0.6s;
     cursor: pointer;
+}
+
+/* When active, show the popup section */
+.popup-section.active {
+  display: block;
+}
+
+/* Prevent background scrolling when popup is open */
+body.popup-open {
+  overflow: hidden;
+  height: 100vh;
 }

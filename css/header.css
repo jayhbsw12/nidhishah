@@ -6,6 +6,11 @@
   z-index: 999;
 }
 
+/* Smooth transition when header becomes sticky */
+.header-section {
+  transition: top 300ms ease;
+}
+
 .header-logo {
   width: 225px;
   height: 54px;
@@ -22,6 +27,17 @@
   border-radius: 50px;
   padding: 16px 20px 16px 30px;
   height: auto;
+}
+
+/* Reduced radius and subtle shadow when sticky */
+.header-section.sticky .container.header-holder {
+  /* border-radius: 12px; */
+  transition: border-radius 300ms ease, padding 300ms ease;
+}
+
+.header-section.sticky {
+  top: 0;
+  /* box-shadow: 0 6px 18px rgba(0,0,0,0.12); */
 }
 ul.header-ul {
   display: flex;
