@@ -1,0 +1,16 @@
+.guided-section {
+  margin: 100px 0px 120px 0px;
+}
+.guided-section .container {
+  flex-direction: column;
+}
+.guided-heading{
+    color: black !important;
+    width: 800px !important;
+}
+.imp-text.brown{
+    font-weight: 600;
+}
+.subtitle-text.guided{
+    color: black !important;
+}

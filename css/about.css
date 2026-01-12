@@ -1,0 +1,103 @@
+.black {
+  color: black;
+}
+
+.about-us-section {
+  margin: 100px 0px;
+}
+
+.about-us-section .container {
+  max-width: 1300px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-section .subcontainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-subcontainer-left {
+  width: 75%;
+}
+.about-subcontainer-right {
+  width: 25%;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-subcontainer-left {
+  font-size: 34px;
+  line-height: 3.5rem;
+  flex-direction: column;
+  display: block;
+}
+
+.imp-text.black {
+  font-weight: 600;
+}
+
+.about-pain-img-1,
+.about-pain-img-2 {
+  border-radius: 30px;
+}
+.about-pain-img-1 {
+  margin-bottom: -16px;
+}
+.about-pain-img-2 {
+  margin-bottom: -16px;
+}
+
+.dr-title {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.dr-description {
+  font-size: 22px;
+  font-weight: 4 00;
+}
+
+.dr-img {
+  border-radius: 30px;
+  width: 300px;
+  height: 300px;
+  background-image: url("../assets/images/nidhi-shah.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.counter-container {
+  flex-direction: row !important;
+  margin-top: 40px;
+}
+
+.counter-card {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+.count-number {
+  font-size: 44px;
+  color: #868b7b;
+}
+.count-title {
+  font-size: 30px;
+}
+.counter-description {
+  color: #4d4d4d;
+}
+
+.counter-button{
+  border: 1px solid #1c1c1c;
+  margin-top: 20px;
+}
+
+.counter-button .text{
+  color: #1c1c1c;
+  font-family: "Marcellus", serif;
+}

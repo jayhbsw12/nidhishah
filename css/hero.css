@@ -1,0 +1,159 @@
+.wdt-button-icon-inner svg {
+  width: 16px;
+  height: 16px;
+}
+
+.hero-section {
+  width: 100%;
+  /* height: calc(100vh - 60px); */
+  height: 1055px;
+  background-image: url("../assets/images/banner-home.webp");
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}
+
+.overlay-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1c85;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section .container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hero-slide-button-icon-holder svg {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
+}
+
+.horizontal-line {
+  width: 80px;
+  border: 1px solid #9d7458;
+  display: block;
+  position: relative;
+}
+
+.line-dot {
+  width: 14px;
+  height: 14px;
+  display: block;
+  background: #9d7458;
+  border-radius: 50%;
+  position: absolute;
+  right: -1px;
+  top: -7.5px;
+}
+
+.hero-slide-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 35%;
+}
+
+span.subtitle-section {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 14px;
+}
+
+.subtitle-text {
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.slide-title {
+  color: white;
+  font-weight: 400;
+}
+
+.imp-text {
+  color: #9d7458;
+}
+
+.slide-description {
+  color: #ffffff;
+}
+
+.slide-main-button {
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  padding: 5px 5px 5px 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  border-radius: 30px;
+}
+
+.slide-main-button .text {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.hero-slide-button-icon-holder {
+  padding: 12px;
+  background: #9d7458;
+  border-radius: 50%;
+}
+
+.slide-left {
+  justify-content: flex-start;
+}
+
+.slider-dot {
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 30px;
+    position: relative;
+    transition: 1s;
+}
+
+.slider-dot.active::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: #ffffff63;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(25%, 25%);
+}
+
+.slider-dot:hover::before{
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: #ffffff63;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(25%, 25%);
+    cursor: pointer;
+    transition: 1s;
+}
+.slide-control-holder {
+    display: flex;
+    gap: 20px;
+}

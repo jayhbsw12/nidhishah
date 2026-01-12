@@ -1,0 +1,38 @@
+.top-bar {
+  background: var(--primary-color);
+}
+
+.top-bar .container{
+    padding: 0;
+}
+
+.top-bar-location-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.top-bar-description {
+  color: white;
+}
+
+.top-bar-button {
+  color: white;
+}
+
+.top-bar-button {
+  padding: 10px 20px 10px 25px;
+  background: #8b654b;
+  border-radius: 40px;
+}
+
+.top-bar-button:hover {
+  background: var(--accent-color);
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.top-bar-button svg{
+    fill: currentColor;
+    width: 16px;
+    height: 16px;
+}

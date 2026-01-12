@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none;
+
+  outline: none;
+
+  font-family: "Marcellus", serif;
+}
+
+p{
+  font-family: "Lato";
+}
+
+body{
+  background: #DEE8DE;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  /* background: grey; */
+}
+
+svg{
+  fill: currentColor;
+}
+
+h2{
+  font-size: 64px;
+}
+
+:root {
+  --primary-color: #9d7458;
+  --accent-color: #868b7b;
+  --white: #ffffff;
+}
+
+section {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+
+  max-width: 1690px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
