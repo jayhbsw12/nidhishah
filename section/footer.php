@@ -15,28 +15,35 @@
                     <p>For prompt assistance and individualized attention, get in touch with us. We are only a phone
                         call or message away.</p>
                 </div>
-                <form action="">
-                    <input type="text" placeholder="Your Name*" class="input-footer">
-                    <input type="number" placeholder="Mobile Number*" class="input-footer">
-                    <input type="email" placeholder="E-Mail Address*" class="input-footer">
-                    <select name="" id="" aria-placeholder="Select Location*" class="input-footer">
-                        <option value="" disabled selected hidden>Select Location *</option>
+                <form action="./utils/footer-mail.php" method="POST">
 
-                        <option value="hadapsar">Hadapsar</option>
-                        <option value="mandhwa">Mandhwa</option>
-                        <option value="manjri-bk">Manjri BK</option>
-                        <option value="gurudatta-nagar">Gurudatta Nagar</option>
-                        <option value="bhekarai-nagar">Bhekrai Nagar</option>
-                        <option value="autadwadi-handewadi">Autadwadi Handewadi</option>
-                        <option value="fatima-nagar">Fatima Nagar</option>
-                        <option value="wanwadi">Wanwadi</option>
+                    <input type="text" name="name" placeholder="Your Name*" class="input-footer" required>
+
+                    <input type="tel" name="mobile" placeholder="Mobile Number*" class="input-footer"
+                        pattern="[0-9]{10,15}" required>
+
+                    <input type="email" name="email" placeholder="E-Mail Address*" class="input-footer" required>
+
+                    <select name="location" class="input-footer" required>
+                        <option value="" disabled selected hidden>Select Location *</option>
+                        <option value="Hadapsar">Hadapsar</option>
+                        <option value="Mandhwa">Mandhwa</option>
+                        <option value="Manjri BK">Manjri BK</option>
+                        <option value="Gurudatta Nagar">Gurudatta Nagar</option>
+                        <option value="Bhekrai Nagar">Bhekrai Nagar</option>
+                        <option value="Autadwadi Handewadi">Autadwadi Handewadi</option>
+                        <option value="Fatima Nagar">Fatima Nagar</option>
+                        <option value="Wanwadi">Wanwadi</option>
                     </select>
+
                     <div class="footer-form-bottom">
-                        <input type="submit" aria-label="Submit" class="submit-btn">
+                        <input type="submit" value="Submit" class="submit-btn">
                         <span class="or-text">OR</span>
-                        <a href="#" class="submit-btn">Call Now</a>
+                        <a href="tel:+918080858170" class="submit-btn">Call Now</a>
                     </div>
+
                 </form>
+
                 <div class="footer-footer flex">
                     <div class="contact-item-holder flex">
                         <div class="contact-icon flex">

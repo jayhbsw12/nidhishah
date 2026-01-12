@@ -41,6 +41,6 @@
 <script src="./js/faq.js"></script>
 <script src="./js/guided.js"></script>
 <script src="./js/hero.js"></script>
-<script src="./js/smooth-scroll.js"></script>
+<!-- <script src="./js/smooth-scroll.js"></script> -->
 
 </html>

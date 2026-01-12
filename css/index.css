@@ -18,7 +18,7 @@ p {
 
 body {
   background: #dee8de;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body,
@@ -36,11 +36,11 @@ li {
   /* background: grey; */
 }
 
-html,
+/* html,
 body {
   scroll-behavior: auto;
   overscroll-behavior: none;
-}
+} */
 
 svg {
   fill: currentColor;
