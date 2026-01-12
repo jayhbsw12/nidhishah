@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.thank-you-logo {
+  width: 750px;
+}
+
+body {
+  background: #dee8de;
+}
+
+.thanks-title {
+  font-size: 42px;
+  font-family: "Marcellus", serif;
+  font-weight: 300;
+}
+
+.thanks-description {
+  font-size: 28px;
+  font-family: "Marcellus", serif;
+  font-weight: 300;
+}
+
+.thank-you-section .container {
+  flex-direction: column;
+  gap: 40px;
+}
+.thank-you-section{
+  height: 100vh;
+}
