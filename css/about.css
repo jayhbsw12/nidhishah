@@ -92,12 +92,17 @@
   color: #4d4d4d;
 }
 
-.counter-button{
+.counter-button {
   border: 1px solid #1c1c1c;
   margin-top: 20px;
 }
 
-.counter-button .text{
+.counter-button .text {
   color: #1c1c1c;
   font-family: "Marcellus", serif;
+}
+
+.close-icon-holder img {
+  width: 10px;
+  height: 10px;
 }

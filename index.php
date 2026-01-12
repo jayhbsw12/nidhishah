@@ -18,12 +18,14 @@
     <link rel="stylesheet" href="./css/reviews.css">
     <link rel="stylesheet" href="./css/faq.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/popup.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
 </head>
 
 <body>
+    <?php include './section/popup.php'; ?>
     <?php include './section/topbar.php'; ?>
     <?php include './section/header.php'; ?>
     <?php include './section/hero.php'; ?>

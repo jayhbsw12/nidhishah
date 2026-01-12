@@ -1,0 +1,80 @@
+.popup-section {
+  position: relative;
+  padding: 0;
+}
+.popup-holder {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #0b0b0bb8;
+  /* opacity: 0.8; */
+  max-width: none;
+  top: 0;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.popup-wrapper {
+  /* background-color: white; */
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  border-radius: 40px;
+  max-height: 600px;
+  border: 1px solid #525252;
+  gap: 0;
+}
+
+.popup-left {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/images/newsletter_physeo\ 1.webp");
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.popup-right {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/images/Home-1-exray-bg.png");
+  background-color: #404040;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  flex-direction: column;
+  padding: 0px 50px;
+  color: white;
+  gap: 20px;
+  position: relative;
+}
+
+.popup-right h2 {
+  color: white;
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.popup-right p {
+  line-height: 1.5rem;
+}
+.popup-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.close-icon-holder {
+  padding: 10px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.close-icon-holder:hover{
+    background: lightgrey;
+    transition: 0.6s;
+    cursor: pointer;
+}
