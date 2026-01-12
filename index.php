@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="./css/reviews.css">
     <link rel="stylesheet" href="./css/faq.css">
     <link rel="stylesheet" href="./css/footer.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
 </head>
 
 <body>
@@ -31,7 +34,13 @@
     <?php include './section/reviews.php'; ?>
     <?php include './section/faq.php'; ?>
     <?php include './section/footer.php'; ?>
+
 </body>
 
 <script src="./js/reviews.js"></script>
+<script src="./js/faq.js"></script>
+<script src="./js/guided.js"></script>
+<script src="./js/hero.js"></script>
+<script src="./js/smooth-scroll.js"></script>
+
 </html>

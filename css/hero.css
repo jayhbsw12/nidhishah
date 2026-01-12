@@ -56,7 +56,9 @@
   top: -7.5px;
 }
 
-.hero-slide-1 {
+.hero-slide-1,
+.hero-slide-2,
+.hero-slide-3 {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -87,7 +89,8 @@ span.subtitle-section {
 }
 
 .slide-description {
-  color: #ffffff;
+    color: #ffffff;
+    line-height: 1.5rem;
 }
 
 .slide-main-button {
@@ -114,30 +117,52 @@ span.subtitle-section {
 }
 
 .slide-left {
-  justify-content: flex-start;
+    justify-content: flex-start;
+    position: relative !important;
 }
 
 .slider-dot {
-    width: 12px;
-    height: 12px;
-    background: white;
-    border-radius: 30px;
-    position: relative;
-    transition: 1s;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+
+  transform: scale(1);
+  transition: 
+    transform 0.4s ease,
+    background-color 0.4s ease;
+}
+
+.slider-dot.active {
+  transform: scale(1.4);
 }
 
 .slider-dot.active::before {
-    content: '';
-    width: 25px;
-    height: 25px;
-    display: block;
-    background: #ffffff63;
-    border-radius: 30px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: translate(25%, 25%);
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+
+  animation: dotPulse 1.2s ease-out infinite;
 }
+
+@keyframes dotPulse {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.8;
+  }
+  70% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 
 .slider-dot:hover::before{
     content: '';
@@ -156,4 +181,32 @@ span.subtitle-section {
 .slide-control-holder {
     display: flex;
     gap: 20px;
+    position: absolute;
+    bottom: 260px;
+}
+
+
+
+
+/* ===== Hero Slider Fade Logic ===== */
+
+.hero-slide-1,
+.hero-slide-2,
+.hero-slide-3 {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+}
+
+.hero-slide-1.active,
+.hero-slide-2.active,
+.hero-slide-3.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Container must be relative */
+.hero-section .container {
+  position: relative;
 }

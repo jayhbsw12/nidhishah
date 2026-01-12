@@ -104,5 +104,81 @@
                 </div>
             </div>
         </div>
+
+        <div class="guide-max-card-holder">
+            <div class="guide-max-card">
+                <div class="guide-max-brown"></div>
+                <div class="guide-max-grey flex">
+                    <div class="guide-max-icon">
+                        <img src="./assets/images/guided/notepad-icon.svg" alt="">
+                    </div>
+                    <div class="guide-max-title">No Rushed Diagnoses</div>
+                    <div class="guide-max-description">We take time to carefully assess your condition. No shortcuts, no guesses. Every diagnosis is based on thorough evaluation and precision.</div>
+                </div>
+                <div class="curved-holder">
+                    <div class="curved-wrapper">
+                        <div class="curved-shape curved-1"></div>
+                        <div class="curved-shape curved-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="guide-max-card">
+                <div class="guide-max-brown-2"></div>
+                <div class="guide-max-grey-2 flex">
+                    <div class="guide-max-icon">
+                        <img src="./assets/images/guided/alert-icon.svg" alt="">
+                    </div>
+                    <div class="guide-max-title">No Jargon Overload</div>
+                    <div class="guide-max-description">Your treatment is explained in clear, simple language. We avoid medical jargon so you always feel confident and informed about your recovery.
+                    </div>
+                </div>
+                <div class="curved-holder-2">
+                    <div class="curved-wrapper">
+                        <div class="curved-shape curved-3"></div>
+                        <div class="curved-shape curved-4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="guide-max-card">
+                <div class="guide-max-brown-3"></div>
+                <div class="guide-max-grey-3 flex">
+                    <div class="guide-max-icon">
+                        <img src="./assets/images/guided/body-icon.svg" alt="">
+                    </div>
+                    <div class="guide-max-title">No Cold Treatment</div>
+                    <div class="guide-max-description">You’re never treated like just a case number. Every session is guided by compassion, empathy, and genuine care for your healing journey.
+
+                    </div>
+                </div>
+                <div class="curved-holder-3">
+                    <div class="curved-wrapper">
+                        <div class="curved-shape curved-5"></div>
+                        <div class="curved-shape curved-6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="guide-max-card">
+                <div class="guide-max-brown-4"></div>
+                <div class="guide-max-grey-4 flex">
+                    <div class="guide-max-icon">
+                        <img src="./assets/images/guided/calender-icon.svg" alt="">
+                    </div>
+                    <div class="guide-max-title">No Missed Details</div>
+                    <div class="guide-max-description">Your progress is closely monitored and documented. We never overlook small changes; every milestone matters in ensuring steady, safe recovery.</div>
+                </div>
+                <div class="curved-holder-4">
+                    <div class="curved-wrapper">
+                        <div class="curved-shape curved-7"></div>
+                        <div class="curved-shape curved-8"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guided-center-holder">
+                <div class="guided-center-circle">
+                    What We Not Do
+                </div>
+            </div>
+        </div>
     </div>
 </section>

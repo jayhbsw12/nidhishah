@@ -8,25 +8,27 @@
 }
 
 .appointment-form-holder {
-  width: 100%;
-  height: auto;
-  padding: 45px 75px;
-  border-radius: 30px;
-  background-image: url("../assets/images/Home-1-exray-bg.png");
-  background-color: #565655;
-
-  display: flex;
-  gap: 30px;
+    width: 100%;
+    height: auto;
+    padding: 80px 75px 45px 75px;
+    border-radius: 30px;
+    background-image: url("../assets/images/Home-1-exray-bg.png");
+    background-color: #565655;
+    display: flex;
+    gap: 30px;
+    z-index: 2;
+    align-items: center;
 }
 
 .appointment-left {
-  width: 25%;
-  height: 100%;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  padding-right: 20px;
-  border-right: 1px solid #afafaf66;
+    width: 25%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #afafaf66;
+    height: -webkit-fill-available;
 }
 
 .appointment-right {
@@ -66,14 +68,13 @@ span.booking-xl-text {
   text-transform: capitalize;
 }
 
-.appointment-right form{
+.appointment-right form {
     display: flex;
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
     gap: 20px;
-    row-gap: 40px;
-
+    row-gap: 50px;
 }
 
 .appointment-right form input, select{

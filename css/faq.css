@@ -89,3 +89,31 @@
 .faq-description {
   color: #1c1c1c;
 }
+
+
+
+/* Hide all FAQ panels by default */
+.faqs-holder {
+  display: none;
+}
+
+/* Show only active FAQ panel */
+.faqs-holder.active {
+  display: grid;
+}
+
+
+.faqs-holder {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

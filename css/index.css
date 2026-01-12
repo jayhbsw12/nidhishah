@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 *,
 *::before,
@@ -12,12 +12,13 @@
   font-family: "Marcellus", serif;
 }
 
-p{
+p {
   font-family: "Lato";
 }
 
-body{
-  background: #DEE8DE;
+body {
+  background: #dee8de;
+  overflow: hidden;
 }
 
 body,
@@ -35,11 +36,17 @@ li {
   /* background: grey; */
 }
 
-svg{
+html,
+body {
+  scroll-behavior: auto;
+  overscroll-behavior: none;
+}
+
+svg {
   fill: currentColor;
 }
 
-h2{
+h2 {
   font-size: 64px;
 }
 
@@ -91,6 +98,39 @@ p {
 
 input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
-    -webkit-appearance: none;
+  /* display: none; */
+  -webkit-appearance: none;
+  color: white;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+  padding: 4px;
+}
+
+/* Chrome, Edge, Safari */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+select option {
+    background-color: #1f3d3fd9;
+    color: #ffffff;
+}
+select option:hover{
+  cursor: pointer;
 }

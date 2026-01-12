@@ -32,7 +32,22 @@
                     <span class="booking-xl-text">
                         and I'm looking for
                     </span>
-                    <select placeholder="Type of Service*" required></select>
+                    <select name="services" id="services" required>
+                        <option value="" disabled selected hidden>Type of Services *</option>
+
+                        <option value="frozen-shoulder">Frozen Shoulder</option>
+                        <option value="knee-replacement">Knee Replacement</option>
+                        <option value="sports-injury">Sports Injury</option>
+                        <option value="arthritis">Arthritis</option>
+                        <option value="paralysis">Paralysis</option>
+                        <option value="balance-training">Balance Training</option>
+                        <option value="sciatic-pain">Sciatic Pain</option>
+                        <option value="neck-physiotherapy">Neck Physiotherapy</option>
+                        <option value="elbow-pain-physiotherapy">Elbow Pain Physiotherapy</option>
+                        <option value="ankle-sprain">Ankle Sprain</option>
+                        <option value="trigger-point-relief">Trigger Point Relief</option>
+                        <option value="ortho-physiotherapy">Ortho Physiotherapy</option>
+                    </select>
 
                     <span class="booking-xl-text">
                         connect with me at
@@ -52,7 +67,19 @@
                     <span class="booking-xl-text">
                         & Location Is
                     </span>
-                    <select placeholder="Select Location*" required></select>
+                    <select name="location" id="location" required>
+                        <option value="" disabled selected hidden>Select Location *</option>
+
+                        <option value="hadapsar">Hadapsar</option>
+                        <option value="mandhwa">Mandhwa</option>
+                        <option value="manjri-bk">Manjri BK</option>
+                        <option value="gurudatta-nagar">Gurudatta Nagar</option>
+                        <option value="bhekarai-nagar">Bhekrai Nagar</option>
+                        <option value="autadwadi-handewadi">Autadwadi Handewadi</option>
+                        <option value="fatima-nagar">Fatima Nagar</option>
+                        <option value="wanwadi">Wanwadi</option>
+                    </select>
+
 
                     <span class="booking-xl-text">
                         to begin healing!
