@@ -1,0 +1,123 @@
+/* Fixed Elements - WhatsApp and Scroll to Top */
+
+/* WhatsApp Icon */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+
+.whatsapp-icon svg {
+    width: 32px;
+    height: 32px;
+    color: white;
+    fill: white;
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #8B7355 0%, #A0826D 100%);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    box-shadow: 0 4px 12px rgba(139, 115, 85, 0.4);
+    transition: all 0.3s ease;
+}
+
+.scroll-to-top.show {
+    display: flex;
+}
+
+.scroll-to-top:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(139, 115, 85, 0.6);
+}
+
+.scroll-to-top svg {
+    width: 28px;
+    height: 28px;
+    color: white;
+    fill: white;
+    transform: rotate(180deg);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .whatsapp-icon,
+    .scroll-to-top {
+        bottom: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .whatsapp-icon {
+        left: 20px;
+    }
+
+    .scroll-to-top {
+        right: 20px;
+    }
+
+    .whatsapp-icon svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .scroll-to-top svg {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .whatsapp-icon,
+    .scroll-to-top {
+        bottom: 15px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .whatsapp-icon {
+        left: 15px;
+    }
+
+    .scroll-to-top {
+        right: 15px;
+    }
+
+    .whatsapp-icon svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .scroll-to-top svg {
+        width: 20px;
+        height: 20px;
+    }
+}

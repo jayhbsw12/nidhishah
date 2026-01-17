@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="./css/faq.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/popup.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/fixed-elements.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
@@ -36,6 +38,7 @@
     <?php include './section/reviews.php'; ?>
     <?php include './section/faq.php'; ?>
     <?php include './section/footer.php'; ?>
+    <?php include './section/fixed-elements.php'; ?>
 
 </body>
 

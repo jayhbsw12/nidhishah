@@ -1,15 +1,15 @@
 <section class="header-section">
     <div class="container header-holder">
-        <img src="./assets/images/Dr nidhi shah logo.svg" alt="logo" class="header-logo">
+        <a href="#home"><img src="./assets/images/Dr nidhi shah logo.svg" alt="logo" class="header-logo"></a>
         <ul class="header-ul">
-            <li class="header-li"><img src="./assets/images/home.png" alt="home-icon"></li>
-            <li class="header-li">Services</li>
-            <li class="header-li">Contact</li>
+            <li class="header-li"><a href="#home"><img src="./assets/images/home.png" alt="home-icon"></a></li>
+            <li class="header-li"><a href="#services">Services</a></li>
+            <li class="header-li"><a href="#contact">Contact</a></li>
         </ul>
         <div class="header-last-holder">
             <div class="social-icon-holder"><img src="./assets/images/facebook.svg" alt=""></div>
             <div class="social-icon-holder"><img src="./assets/images/instagram.svg" alt=""></div>
-            <a class="slide-main-button counter-button header-contact-button">
+            <a href="tel:+918080858170" class="slide-main-button counter-button header-contact-button">
                 <p class="text">+91 8080 858 170</p>
                 <span class="hero-slide-button-icon-holder flex">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 11">

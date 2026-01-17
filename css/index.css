@@ -128,9 +128,21 @@ select {
   -moz-appearance: none;
 }
 select option {
-    background-color: #1f3d3fd9;
-    color: #ffffff;
+  background-color: #1f3d3fd9;
+  color: #ffffff;
 }
-select option:hover{
+select option:hover {
   cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: Add styles for other browsers for cross-browser compatibility */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+}
+a {
+  color: black;
 }

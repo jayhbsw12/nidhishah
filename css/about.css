@@ -59,7 +59,7 @@
 
 .dr-description {
   font-size: 22px;
-  font-weight: 4 00;
+  font-weight: 400;
 }
 
 .dr-img {
@@ -87,9 +87,11 @@
 }
 .count-title {
   font-size: 30px;
+  text-align: center;
 }
 .counter-description {
   color: #4d4d4d;
+  text-align: center;
 }
 
 .counter-button {

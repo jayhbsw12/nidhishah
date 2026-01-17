@@ -1,4 +1,4 @@
-<section class="hero-section">
+<section class="hero-section" id="home">
     <div class="overlay-bg">
         <div class="container slide-left">
             <div class="hero-slide-1">
@@ -20,7 +20,7 @@
                     confidence with personalised home
                     sessions.
                 </p>
-                <button class="slide-main-button">
+                <a href="#services" class="slide-main-button">
                     <p class="text">See All Services</p>
                     <span class="hero-slide-button-icon-holder flex">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 11">
@@ -29,7 +29,7 @@
                             </path>
                         </svg>
                     </span>
-                </button>
+                </a>
             </div>
             <div class="hero-slide-2">
                 <span class="subtitle-section">
@@ -45,7 +45,7 @@
                 <h2 class="slide-title">Certified Physiotherapy <span class="imp-text">Right</span> Where You Are</h2>
                 <p class="slide-description">No clinic visits, no waiting rooms – just trusted, one-on-one treatment at
                     your home</p>
-                <button class="slide-main-button">
+                <a href="tel:+918080858170" class="slide-main-button">
                     <p class="text">Book Your Session</p>
                     <span class="hero-slide-button-icon-holder flex">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 11">
@@ -54,7 +54,7 @@
                             </path>
                         </svg>
                     </span>
-                </button>
+                </a>
             </div>
             <div class="hero-slide-3">
                 <span class="subtitle-section">
@@ -70,7 +70,7 @@
                 <h2 class="slide-title">Recovery Made <span class="imp-text">Convenient</span></h2>
                 <p class="slide-description">No clinic visits, no waiting rooms – just trusted, one-on-one treatment at
                     your home</p>
-                <button class="slide-main-button">
+                <a href="tel:+918080858170" class="slide-main-button">
                     <p class="text">Get Started</p>
                     <span class="hero-slide-button-icon-holder flex">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 11">
@@ -79,7 +79,7 @@
                             </path>
                         </svg>
                     </span>
-                </button>
+                </a>
             </div>
             <div class="slide-control-holder">
                 <div class="slider-dot active"></div>

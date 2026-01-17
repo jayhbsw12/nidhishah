@@ -1,4 +1,4 @@
-<section class="footer-section">
+<section class="footer-section" id="contact">
     <div class="footer-huge-image-section">
         <div class="footer-cutout-holder">
             <div class="footer-cutout"></div>
@@ -53,7 +53,7 @@
                                 </path>
                             </svg>
                         </div>
-                        <span class="contact-text">+91 8080 858 170</span>
+                        <a href="tel:+918080858170" class="contact-text">+91 8080 858 170</a>
                     </div>
                     <div class="contact-item-holder flex">
                         <div class="contact-icon flex">
@@ -63,7 +63,7 @@
                                 </path>
                             </svg>
                         </div>
-                        <span class="contact-text">nidhishah0002@gmail.com</span>
+                        <a href="mailto:nidhishah0002@gmail.com" class="contact-text">nidhishah0002@gmail.com</a>
                     </div>
                 </div>
             </div>
