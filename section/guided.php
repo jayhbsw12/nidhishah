@@ -31,7 +31,7 @@
                 <div class="guide-max-brown"></div>
                 <div class="guide-max-grey flex">
                     <div class="guide-max-icon">
-                        <img src="./assets/images/guided/in depth evalution.webp" alt="">
+                        <img src="./assets/images/guided/in-depth-evalution.webp" alt="">
                     </div>
                     <div class="guide-max-title">In-Depth Evaluation</div>
                     <div class="guide-max-description">Every treatment begins with a thorough assessment of your
