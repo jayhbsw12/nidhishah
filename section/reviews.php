@@ -119,7 +119,7 @@
         </article>
       </div>
     </div>
-    <button class="slide-main-button" style="margin-top: 20px">
+    <a class="slide-main-button" style="margin-top: 20px" href="https://maps.app.goo.gl/DjDJ3eiKSoK1WcBQ8">
       <span class="text">Leave Us A Review</span>
       <span class="hero-slide-button-icon-holder flex">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 11">
@@ -128,6 +128,6 @@
           </path>
         </svg>
       </span>
-    </button>
+    </a>
   </div>
 </section>
