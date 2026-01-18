@@ -28,7 +28,7 @@
     width: 32px;
     height: 32px;
     color: white;
-    fill: white;
+    fill: none;
 }
 
 /* Scroll to Top Button */
@@ -63,8 +63,8 @@
     width: 28px;
     height: 28px;
     color: white;
-    fill: white;
-    transform: rotate(180deg);
+    fill: none;
+    /* transform: rotate(180deg); */
 }
 
 /* Responsive */
